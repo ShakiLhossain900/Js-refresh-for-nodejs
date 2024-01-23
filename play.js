@@ -43,4 +43,8 @@ const hobies =['Shports ', 'cooking'];
 // for (let hobby of hobies) {
 //     console.log(hobby);
 // }
-console.log(hobies.map(hobby=>'hobby : '+ hobby));
+// console.log(hobies.map(hobby=>'hobby : '+ hobby));
+hobies.push('programming');
+hobies.push('dev');
+hobies.pop('programming');
+console.log(hobies);
