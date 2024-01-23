@@ -68,3 +68,22 @@
 //     return arg;
 // }
 // console.log(toArray(1,2,3,4,5));
+
+
+// Destructuring 
+const person = {
+    name: 'shakil',
+    age: 29
+}
+
+const printName =(person)=>{
+    console.log(person.name , person.age);
+}
+
+// AFTER DISTRUCTURING 
+// const printName =({name, age})=>{
+//      console.log(name,age);
+// }
+
+printName(person)
+
