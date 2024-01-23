@@ -70,20 +70,25 @@
 // console.log(toArray(1,2,3,4,5));
 
 
-// Destructuring 
-const person = {
-    name: 'shakil',
-    age: 29
-}
-
-const printName =(person)=>{
-    console.log(person.name , person.age);
-}
-
-// AFTER DISTRUCTURING 
-// const printName =({name, age})=>{
-//      console.log(name,age);
+// // object Destructuring 
+// const person = {
+//     name: 'shakil',
+//     age: 29
 // }
 
-printName(person)
+// // const printName =(person)=>{
+// //     console.log(person.name , person.age);
+// // }
+// const printName =({name})=>{
+//      console.log(name);
+// }
 
+// printName(person)
+
+// const {name , age} = person
+// console.log(name,age);
+
+// array  Destructuring 
+const hasHobbies =['dev developer', 'and researcher'];
+const [hobby1,hobby2] = hasHobbies;
+console.log(hobby1,hobby2);
