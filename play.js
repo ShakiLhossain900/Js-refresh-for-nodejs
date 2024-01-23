@@ -39,12 +39,26 @@
 // person.great();
 
 //ARRYAY and ARRAY METHOD
-const hobies =['Shports ', 'cooking'];
-// for (let hobby of hobies) {
-//     console.log(hobby);
-// }
-// console.log(hobies.map(hobby=>'hobby : '+ hobby));
-hobies.push('programming');
-hobies.push('dev');
-hobies.pop('programming');
-console.log(hobies);
+// const hobies =['Shports ', 'cooking'];
+// // for (let hobby of hobies) {
+// //     console.log(hobby);
+// // }
+// // console.log(hobies.map(hobby=>'hobby : '+ hobby));
+// hobies.push('programming');
+// hobies.push('dev');
+// hobies.pop('programming');
+// console.log(hobies);
+
+
+// spread and 
+// const hobies =['Shports ', 'cooking'];
+
+// //const copiedArrays =hobies.slice(); //slice er vitor value na dile poro array copy kore nibe
+// //const coppiedArray2= [hobies]; //[ [ 'Shports ', 'cooking' ] ] akta array er vitor arekta array asbe output y
+// const coppiedArray3 = [...hobies]; //spread operator all the elementsniye asbe  
+// console.log(hobies);
+
+// console.log(coppiedArray3);
+
+//rest operators
+
