@@ -61,4 +61,10 @@
 // console.log(coppiedArray3);
 
 //rest operators
-
+// const toArray = (arg1, arg2, arg3) =>{
+//     return [arg1,arg2,arg3];   // beshi argument pathale big data onk hard hoy
+// }
+const toArray = (...arg) =>{   ///rest operator atto line likha lage na
+    return arg;
+}
+console.log(toArray(1,2,3,4,5));
