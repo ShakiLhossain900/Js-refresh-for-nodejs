@@ -17,26 +17,26 @@ console.log(summarize(name, age, hasHobbies));
 // const hasHobbies = true;
  
 
-// const  summarize=(name, age, hasHobbies)=> {
-//   return ( "name is " + name + " age is " + age + " and i had a " + hasHobbies);
-// }
-// console.log(summarize(name, age, hasHobbies));
+const  summarize=(name, age, hasHobbies)=> {
+  return ( "name is " + name + " age is " + age + " and i had a " + hasHobbies);
+}
+console.log(summarize(name, age, hasHobbies));
 
 
 // // const addOne=(a,b)=> a+b;
 // const addRandom=()=>1+1;
 // console.log(addRandom())
 
-//object 
-// const person ={
-//     name: 'shakil',
-//     age:26,
-//     // great:()=>{ //arrow funtion kaj korbe na old function use korte hobe 
-//     great: function(){
-//         console.log(' hi this is shakil '+ this.name +' name age is '+ this.age);
-//     }
-// };
-// person.great();
+object 
+const person ={
+    name: 'shakil',
+    age:26,
+    // great:()=>{ //arrow funtion kaj korbe na old function use korte hobe 
+    great: function(){
+        console.log(' hi this is shakil '+ this.name +' name age is '+ this.age);
+    }
+};
+person.great();
 
 //ARRYAY and ARRAY METHOD
 // const hobies =['Shports ', 'cooking'];
