@@ -1,20 +1,20 @@
-// var  name = "shakil"; // for the use of const we don't have plan to change the const keyword
-// let age = 26;  // amara let use korle amara change korte parbu
-// const hasHobbies = true;
+var  name = "shakil"; // for the use of const we don't have plan to change the const keyword
+let age = 26;  // amara let use korle amara change korte parbu
+const hasHobbies = true;
  
-// //const name='moure'; //ata kaj korbe na karon akhane const use koreci 
-// var name = "moure"; // for the use of also can run as like let 
-// let =30;
+//const name='moure'; //ata kaj korbe na karon akhane const use koreci 
+var name = "moure"; // for the use of also can run as like let 
+let =30;
 
-// function summarize(name, age, hasHobbies) {
-//   return ( "name is " + name + " age is " + age + " and i had a " + hasHobbies);
-// }
-// console.log(summarize(name, age, hasHobbies));
+function summarize(name, age, hasHobbies) {
+  return ( "name is " + name + " age is " + age + " and i had a " + hasHobbies);
+}
+console.log(summarize(name, age, hasHobbies));
 
-// //ARROW FUNCTION 
-// // var  name = "shakil";
-// // let age = 26; 
-// // const hasHobbies = true;
+//ARROW FUNCTION 
+// var  name = "shakil";
+// let age = 26; 
+// const hasHobbies = true;
  
 
 // const  summarize=(name, age, hasHobbies)=> {
