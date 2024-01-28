@@ -115,4 +115,7 @@ console.log(name, age);
 //array destructuring
 const hobies = ['blockchain', 'researcher'];
 const [hobby1, hobby2] = hobies;
-console.log(hobby1,hobby2);
+console.log(hobby1,hobby2); // amara log korteci array na , two individual value print korteci
+
+
+//async and promise 
