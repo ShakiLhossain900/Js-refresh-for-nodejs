@@ -101,7 +101,18 @@ const person = {
     console.log('Hi! i am ' + this.name);
   }
 }
-const printName = (personData) => {
-  console.log(personData.name);
+// const printName = (personData) => {
+
+const printName = ({name, age}) => {
+  console.log(name,age);
 }
 printName(person);
+
+//destructuring outside of the function 
+const {name, age} = person;
+console.log(name, age);
+
+//array destructuring
+const hobies = ['blockchain', 'researcher'];
+const [hobby1, hobby2] = hobies;
+console.log(hobby1,hobby2);
