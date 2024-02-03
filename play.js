@@ -93,29 +93,44 @@
 // const [hobby1,hobby2] = hasHobbies;
 // console.log(hobby1,hobby2);
 
-// Destructuring 
-const person = {
-  name:'Max',
-  age : 29,
-  greet(){
-    console.log('Hi! i am ' + this.name);
-  }
-}
-// const printName = (personData) => {
+// // Destructuring 
+// const person = {
+//   name:'Max',
+//   age : 29,
+//   greet(){
+//     console.log('Hi! i am ' + this.name);
+//   }
+// }
+// // const printName = (personData) => {
 
-const printName = ({name, age}) => {
-  console.log(name,age);
-}
-printName(person);
+// const printName = ({name, age}) => {
+//   console.log(name,age);
+// }
+// printName(person);
 
-//destructuring outside of the function 
-const {name, age} = person;
-console.log(name, age);
+// //destructuring outside of the function 
+// const {name, age} = person;
+// console.log(name, age);
 
-//array destructuring
-const hobies = ['blockchain', 'researcher'];
-const [hobby1, hobby2] = hobies;
-console.log(hobby1,hobby2); // amara log korteci array na , two individual value print korteci
+// //array destructuring
+// const hobies = ['blockchain', 'researcher'];
+// const [hobby1, hobby2] = hobies;
+// console.log(hobby1,hobby2); // amara log korteci array na , two individual value print korteci
 
 
 //async and promise 
+const fetchData = callback =>{
+  setTimeout(()=>{
+    callback('done');
+  },1500);
+};
+
+setTimeout(()=>{
+  console.log('time out is done');
+  fetchData(text =>{
+    console.log(text);
+  })
+}, 2000);
+
+console.log('Hello');
+console.log('Hi');
