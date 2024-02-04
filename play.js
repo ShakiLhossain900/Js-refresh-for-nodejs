@@ -137,23 +137,27 @@
 // console.log('Hi');
 
 //promise 
-const fetchData = callback =>{
-const promise = new Promise((resolve,reject)=>{
-  setTimeout(()=>{
-    resolve('done');
-    resolve("this is done by shakil");
-  },1500);
-});
-return promise;
-};
+// const fetchData = () =>{
+// const promise = new Promise((resolve,reject)=>{
+//   setTimeout(()=>{
+//     // resolve('done');
+//     resolve("this is done by shakil");
+//   },1500);
+// });
+// return promise;
+// };
 
-setTimeout(()=>{
-  console.log('time out is done');
-    fetchData().then(text =>{
-      console.log(text);
-    })
+// setTimeout(()=>{
+//   console.log('time out is done');
+//     fetchData().then(text =>{
+//       console.log(text);
+//       return fetchData();
+//     })
+//     .then(text2 =>{
+//       console.log(text2);
+//     })
   
-}, 2000);
+// }, 2000);
 
-console.log('Hello');
-console.log('Hi');
+// console.log('Hello');
+// console.log('Hi');
