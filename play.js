@@ -119,18 +119,38 @@
 
 
 //async and promise 
-const fetchData = callback =>{
-  setTimeout(()=>{
-    callback('done');
-  },1500);
-};
+// const fetchData = callback =>{
+//   setTimeout(()=>{
+//     callback('done');
+//     callback('done as well')
+//   },1500);
+// };
 
-setTimeout(()=>{
-  console.log('time out is done');
-  fetchData(text =>{
-    console.log(text);
-  })
-}, 2000);
+// setTimeout(()=>{
+//   console.log('time out is done');
+//   fetchData(text =>{
+//     console.log(text);
+//   })
+// }, 2000);
 
-console.log('Hello');
-console.log('Hi');
+// console.log('Hello');
+// console.log('Hi');
+
+//promise 
+// const fetchData = callback =>{
+// const promise = new Promise((resolve,reject)=>{
+//   setTimeout(()=>{
+//     callback('done');
+//   },1500);
+// });
+// };
+
+// setTimeout(()=>{
+//   console.log('time out is done');
+//   fetchData(text =>{
+//     console.log(text);
+//   })
+// }, 2000);
+
+// console.log('Hello');
+// console.log('Hi');
